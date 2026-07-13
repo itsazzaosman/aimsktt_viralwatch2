@@ -10,4 +10,4 @@ beautifulsoup4
 lxml
 pdfplumber
 joblib
-pytest
+pytestgeopandas

@@ -63,12 +63,14 @@ fi
 
 echo "[5/6] Creating Python virtual environment..."
 
-python3 -m venv .venv
+# python3 -m venv .venv
+python -m venv venv
 
 
 echo "[6/6] Installing Python packages..."
 
-source .venv/bin/activate
+#source .venv/bin/activate
+source venv/Scripts/activate
 
 
 python -m pip install --upgrade pip
